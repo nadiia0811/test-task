@@ -10,6 +10,11 @@ module.exports = {
         roboto: ['Roboto', 'sans-serif'],
         poppins: ['Poppins', 'sans-serif'],
       },
+      colors: {
+        blue: "#003366",
+        dark_gray: "#343434",
+        light_gray: "#fbfbfb",
+      }
     },
   },
   plugins: [],

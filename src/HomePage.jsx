@@ -1,4 +1,5 @@
 import Hero from "./components/Hero";
+import Advantages from "./components/Advantages";
 import "./index.css";
 
 const HomePage = () => {
@@ -6,6 +7,7 @@ const HomePage = () => {
   return (
       <>
         <Hero />
+        <Advantages />
       </>
   )
 }
