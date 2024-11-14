@@ -4,7 +4,7 @@ import { ChevronDown } from 'lucide-react';
 
 const Hero = () => {
     return (
-        <div className="w-[1920px] h-[699px] flex flex-col bg-light_gray">         
+        <div className="w-custom_full h-[699px] flex flex-col bg-light_gray">         
             <div className="px-[290px] h-[80px] flex items-center">            
                 <div className="flex gap-12 items-center font-roboto">
                     <img src={logo} 
@@ -47,7 +47,7 @@ const Hero = () => {
             </div>
 
             <div className="w-[1346px] h-[519px] mx-auto mt-[50px] flex gap-6">           
-              <div className="w-[889px] rounded-[20px] h-full bg-blue text-[#fbfbfb]">
+              <div className="w-[889px] rounded-[20px] h-full bg-blue text-light_gray">
                   <div className="flex flex-col gap-1 my-[108px] mx-[80px]"> 
                      <div className="flex flex-col font-semibold 
                                         font-poppins text-4xl leading-[57.6px]">

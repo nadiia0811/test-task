@@ -14,6 +14,10 @@ module.exports = {
         blue: "#003366",
         dark_gray: "#343434",
         light_gray: "#fbfbfb",
+        whisper: "#eff3f7",
+      },
+      width: {
+        custom_full: "1920px",
       }
     },
   },
