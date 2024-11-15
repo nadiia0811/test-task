@@ -63,7 +63,7 @@ body {
 }
 
 .footer_p {
-  @apply text-[16px] text-blue font-roboto font-normal leading-[24px]
+  @apply text-[16px] text-blue font-roboto font-normal leading-[24px] w-[280px]
 }
 
 .custom_li {
