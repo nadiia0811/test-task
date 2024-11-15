@@ -4,8 +4,9 @@ import AboutUs from "./components/AboutUs";
 import Testimonials from "./components/Testimonials";
 import OurCourses from "./components/OurCourses";
 import LeadMagnet from "./components/LeadMagnet";
-import "./index.css";
 import FAQ from "./components/FAQ";
+import Footer from "./components/Footer";
+import "./index.css";
 
 
 const HomePage = () => {
@@ -19,6 +20,7 @@ const HomePage = () => {
         <LeadMagnet />
         <Testimonials />
         <FAQ />
+        <Footer />
       </>
   )
 }

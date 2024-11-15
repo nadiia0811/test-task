@@ -61,3 +61,11 @@ body {
   @apply w-[235px] h-[58px] flex items-center justify-center rounded-[14px]
          py-[14px] px-[30px] bg-light_gray
 }
+
+.footer_p {
+  @apply text-[16px] text-blue font-roboto font-normal leading-[24px]
+}
+
+.custom_li {
+  @apply w-[79px] py-[12px] px-[8px] text-dark_gray font-roboto text-[16px] 
+}
