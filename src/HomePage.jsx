@@ -12,7 +12,7 @@ import "./index.css";
 const HomePage = () => {
 
   return (
-      <>
+      <div className="mx-auto flex flex-col w-custom_full">
         <Hero />
         <Advantages />
         <AboutUs />
@@ -21,7 +21,7 @@ const HomePage = () => {
         <Testimonials />
         <FAQ />
         <Footer />
-      </>
+      </div>
   )
 }
 
