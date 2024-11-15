@@ -3,6 +3,7 @@ import Advantages from "./components/Advantages";
 import AboutUs from "./components/AboutUs";
 import "./index.css";
 import OurCourses from "./components/OurCourses";
+import LeadMagnet from "./components/LeadMagnet";
 
 const HomePage = () => {
 
@@ -12,6 +13,7 @@ const HomePage = () => {
         <Advantages />
         <AboutUs />
         <OurCourses />
+        <LeadMagnet />
       </>
   )
 }

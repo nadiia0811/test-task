@@ -5,4 +5,14 @@
 body {
     @apply font-sans;
   }
-  
+
+.input {
+  @apply w-[658px] h-[64px] bg-light_gray border border-[#ececec]
+         px-[14px] rounded-[4px] font-roboto text-[14px] mb-[25px]
+}
+
+.custom_button {
+  @apply w-[213px] h-[58px] ml-[10px] mt-[10px] bg-light_gray rounded-[14px] font-normal
+  flex justify-center items-center text-[20px] text-blue font-poppins
+}
+
