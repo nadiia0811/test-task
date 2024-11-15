@@ -1,9 +1,11 @@
 import Hero from "./components/Hero";
 import Advantages from "./components/Advantages";
 import AboutUs from "./components/AboutUs";
-import "./index.css";
+import Testimonials from "./components/Testimonials";
 import OurCourses from "./components/OurCourses";
 import LeadMagnet from "./components/LeadMagnet";
+import "./index.css";
+
 
 const HomePage = () => {
 
@@ -14,6 +16,7 @@ const HomePage = () => {
         <AboutUs />
         <OurCourses />
         <LeadMagnet />
+        <Testimonials />
       </>
   )
 }

@@ -8,7 +8,7 @@ body {
 
 .input {
   @apply w-[658px] h-[64px] bg-light_gray border border-[#ececec]
-         px-[14px] rounded-[4px] font-roboto text-[14px] mb-[25px]
+         px-[14px] rounded-[4px] font-roboto text-[14px] mb-[25px] font-medium
 }
 
 .custom_button {
@@ -16,3 +16,24 @@ body {
   flex justify-center items-center text-[20px] text-blue font-poppins
 }
 
+.custom_h2 {
+  @apply font-poppins font-medium text-blue text-[42px] leading-[63px]
+}
+
+.custom_subcontainer {
+  @apply border border-blue rounded-[12px] flex gap-5 flex-1
+         pl-[20px] pr-[80px] pb-[20px] pt-[20px]
+}
+
+.text_container {
+  @apply flex flex-col w-[120px] h-[82px] gap-[2px]
+}
+
+.custom_h5 {
+  @apply font-poppins text-[20px] text-dark_gray font-medium
+         leading-[30px]
+}
+
+.custom_p {
+  @apply text-[#6b6b6b] font-roboto text-[16px] leading-[24px] font-normal
+}
