@@ -6,8 +6,8 @@ import book from "../assets/Book.png";
 
 const Advantages = () => {
     return (
-      <div className="w-custom_full h-[560px] bg-[#e0e7ef] mx-auto pt-[72px] pb-[72px]">
-         <div className="w-[1346px] h-[457px] mx-auto flex flex-col gap-6">
+      <div className="w-custom_full h-[560px] bg-[#e0e7ef] mx-auto pt-[72px] pb-[72px] flex justify-center">
+         <div className="w-[1340px] h-[457px] mx-auto flex flex-col gap-6">
             <div className="h-[123px] bg-light_gray w-full rounded-[16px] flex items-center">
               <h2 className="text-blue font-poppins font-medium text-[42px] leading-[63px] ml-[40px]">
                  ADVANTAGES

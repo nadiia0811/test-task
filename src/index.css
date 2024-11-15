@@ -7,8 +7,8 @@ body {
   }
 
 .input {
-  @apply w-[658px] h-[64px] bg-light_gray border border-[#ececec]
-         px-[14px] rounded-[4px] font-roboto text-[14px] mb-[25px] font-medium
+  @apply w-[658px] h-[64px] bg-light_gray border border-[#ececec] text-dark_gray
+         px-[14px] rounded-[4px] font-roboto text-[18px] mb-[25px] font-medium
 }
 
 .custom_button {
@@ -34,6 +34,30 @@ body {
          leading-[30px]
 }
 
+.custom_h4 {
+  @apply text-light_gray font-poppins 
+           text-[14px] font-medium leading-[36px]
+}
+
 .custom_p {
   @apply text-[#6b6b6b] font-roboto text-[16px] leading-[24px] font-normal
+}
+
+.paragraph {
+  @apply text-dark_gray text-[20px] font-medium font-roboto leading-[30px]
+}
+
+.form_input {
+  @apply w-[424px] h-[64px] bg-light_gray py-[12px] px-[14px] border border-[#ececec]
+         text-[18px] font-roboto text-dark_gray font-normal rounded-[4px]
+}
+
+.custom_textarea {
+  @apply h-[114px] border border-[#ececec] text-dark_gray 
+         w-[424px] text-[18px] font-roboto py-[12px] px-[14px] rounded-[4px]
+}
+
+.form_btn {
+  @apply w-[235px] h-[58px] flex items-center justify-center rounded-[14px]
+         py-[14px] px-[30px] bg-light_gray
 }

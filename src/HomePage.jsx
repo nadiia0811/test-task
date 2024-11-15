@@ -5,6 +5,7 @@ import Testimonials from "./components/Testimonials";
 import OurCourses from "./components/OurCourses";
 import LeadMagnet from "./components/LeadMagnet";
 import "./index.css";
+import FAQ from "./components/FAQ";
 
 
 const HomePage = () => {
@@ -17,6 +18,7 @@ const HomePage = () => {
         <OurCourses />
         <LeadMagnet />
         <Testimonials />
+        <FAQ />
       </>
   )
 }

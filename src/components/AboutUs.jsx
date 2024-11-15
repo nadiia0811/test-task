@@ -3,7 +3,7 @@ import about_us from "../assets/about_us.png";
 
 const AboutUs = () => {
     return (
-       <div className="w-custom_full h-[758px] mx-auto bg-light_gray ">
+       <div className="w-custom_full h-[758px] mx-auto bg-light_gray flex justify-center">
           <div className="w-[1340px] h-[658px] flex flex-col my-[50px] mx-auto">
             <div className="h-[63px] flex justify-between items-center mb-[20px]">
                 <h2 className="font-poppins text-blue text-[42px] font-medium leading-[63px]">
